@@ -1,0 +1,801 @@
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.new-block {
+	max-width: 1600px;
+	height: 915px;
+	background: #F7F7F7;
+    margin: 0 auto;
+}
+
+.container-intro {
+	width:1203px; 
+	height:322px; 
+	background-image: url("../image/Rectangle11.jpg");
+	top: 80px;
+	position: relative;
+    margin: 0 auto;
+}
+
+.blue-box {
+	width: 432px;
+	height: 322px;
+	background: #5499F0;
+	padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.blue-box-radius {
+	border: 2px solid rgba(255, 255, 255, 0.3);
+    height: 302px;
+    width: 412px;
+    box-sizing: border-box;
+    border-radius: 5px 0 0 5px;
+}
+
+.intro-title {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 100%;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-top: 78px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.intro-description {
+	font-size: 16px;
+	line-height: 100%;
+	color: rgba(255, 255, 255, 0.7);
+	margin-left: 30px;
+}
+
+.intro-button {
+	width: 180px;
+	height: 42px;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background: #5499F0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 100%;
+	color: #FFFFFF;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+.container-item {
+	width: 1203px;
+    position: relative;
+    margin: 0 auto;
+    top: 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-box {
+    width: 383px;
+    height: 150px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding-top: 36px;
+    box-sizing: border-box;
+}
+
+.image-box {
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+}
+
+.image-izoton {
+	left: 16.9%;
+}
+
+.image-mundo {
+	left: 51%;
+    top: 28%;
+}
+
+.image-toesox {
+	left: 84%;
+}
+
+.item-title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 110%;
+	color: #37393A;
+	margin-left: 20px;
+}
+
+.title-mundo {
+	display: block;
+    max-width: 145px;
+}
+
+.item-description {
+	font-size: 16px;
+	line-height: 100%;
+	color: #838383;
+	margin-top: 15px;
+	margin-left: 20px;
+	display: block;
+}
+
+.description-sock {
+	display: block;
+    max-width: 138px;
+    line-height: 130%;
+    letter-spacing: 1px;
+}
+
+.image-news {
+	position: absolute;
+    top: -9%;
+    left: 32.3%;
+    z-index: 20;
+}
+
+.image-vector {
+	position: absolute;
+    top: 11%;
+    left: 33.1%;
+    z-index: 0;
+}
+
+.container-item-double {
+	top: 162px;
+}
+
+.item-double-box {
+	width: 589px;
+	height: 200px;
+	background: linear-gradient(to right, #FFFFFF 75%, rgba(84, 153, 240, 0.37) 25%);
+	border-radius: 5px;
+	box-sizing: border-box;
+    position: relative;
+}
+
+.image-sport {
+	left: 27.7%;
+    top: -6%;
+}
+
+.sport-title {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 100%;
+	color: #37393A;
+	display: block;
+    margin-top: 65px;
+    margin-left: 40px;
+} 
+
+.image-news-sport {
+	left: -1.7%;
+    top: -7%;
+}
+
+.image-watch {
+	left: 954px;
+	top: 11px;
+}
+
+.polar-title {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 100%;
+	color: #37393A;
+	display: block;
+    margin-top: 46px;
+    margin-left: 40px;
+}
+
+.polar-description {
+	font-size: 14px;
+	line-height: 130%;
+	color: #838383;
+	display: block;
+	max-width: 214px;
+    margin-left: 40px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.polar-button {
+	margin-left: 40px;
+    margin-top: 17px;
+}
+
+.sport-button {
+	margin-left: 40px;
+    margin-top: 25px;
+}
+
+
+.image-news-polar {
+	left: 49.2%;
+	top: -7%;
+}
+
+.image-vector-polar {
+	left: 50%;
+    top: 8%;
+}
+
+.image-vector-sport {
+	left: -0.9%;
+    top: 8%;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+		
+	.new-block {
+		max-width: 1280px;
+	}
+	
+	.container-block {
+		max-width: 1000px;
+    	margin: 0 auto;
+	}
+
+	.container-item  {
+		width: 1000px;
+	}
+
+	.container-intro {
+		width: 1000px;
+		background-size: 100%;
+		height: 267px;
+	}
+
+	.blue-box {
+    	width: 381px;
+    	height: 267px;
+	}
+
+	.blue-box-radius {
+    	height: 247px;
+    	width: 360px;
+    }
+
+    .intro-title {
+    	margin-top: 57px;
+    }
+
+    .container-item-box {
+    	display: none;
+    }
+
+    .item-box {
+    	width: 470px;
+    	padding-left: 25px;
+	}
+
+	.image-izoton {
+    	left: 27.9%;
+	}
+
+	.image-mundo {
+    	left: 80%;
+	}
+
+	.image-news {
+    	left: 50.8%;
+    }
+
+    .item-double-box {
+    	width: 470px;
+	}
+
+	.image-sport {
+    	left: 24.7%;
+    }
+
+    .image-news-sport {
+    	left: -2.2%;
+    }
+
+    .image-watch {
+    	left: 780px;
+    }
+
+    .image-news-polar {
+    	left: 50.8%;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 960px) {
+
+	.new-block {
+		max-width: 1023px;
+		height: 845px;
+	}
+
+	.container-block {
+		max-width: 1000px;
+	}
+
+	.container-item-box {
+    	display: none;
+    }
+
+    .container-intro {
+    	width: 900px;
+    	height: 240px;
+    	background-size: 100%;
+	}
+
+	.blue-box {
+    	width: 350px;
+    	height: 240px;
+	}
+
+	.blue-box-radius {
+    	height: 220px;
+    	width: 330px;
+    }
+
+    .intro-title {
+    	margin-top: 42px;
+    }
+
+    .container-item {
+    	width: 900px;
+    }
+
+    .item-box {
+    	width: 430px;
+    }
+
+    .image-izoton {
+    	left: 26.7%;
+	}
+
+	.item-title {
+    	font-size: 24px;
+    	margin-left: 28px;
+    }
+
+    .item-description {
+    	margin-left: 28px;
+    }
+
+    .image-mundo {
+    	left: 79%;
+    	top: 24%;
+	}
+
+	.title-mundo {
+    	max-width: 147px;
+	}
+
+	.image-news {
+    	left: 49.9%;
+    }
+
+    .item-double-box {
+    	width: 430px;
+    }
+
+    .sport-title {
+    	margin-top: 58px;
+    	margin-left: 40px;
+    }
+
+    .image-sport {
+    	left: 23.7%;
+    }
+
+    .image-news-sport {
+    	left: -2.6%;
+    }
+
+    .image-watch {
+    	left: 690px;
+	}
+}
+
+@media screen and (max-width: 959px) and (min-width: 768px) {
+
+	.new-block {
+		max-width: 959px;
+		height: 1090px;
+	}
+
+	.container-block {
+    	max-width: 850px;
+    	margin: 0 auto;
+	}
+
+	.container-intro {
+    	width: 700px;
+    	height: 187px;
+    	background-size: 100%;
+    	top: 45px;
+    }
+
+    .blue-box {
+    	width: 255px;
+    	height: 187px;
+    }
+
+    .blue-box-radius {
+    	height: 168px;
+    	width: 235px;
+    }
+
+    .intro-title {
+    	margin-top: 31px;
+    	margin-bottom: 12px;
+    	margin-left: 20px;
+    }
+
+    .intro-description {
+    	margin-left: 20px;
+    }
+
+    .intro-button {
+    	margin-top: 20px;
+    	margin-left: 20px;
+    }
+
+    .container-item {
+    	width: 700px;
+    	top: 100px;
+    	display: block;
+	}
+
+    .item-box {
+    	width: 700px;
+    	height: 200px;
+	}
+
+	.item-title {
+		font-size: 30px;
+		margin-left: 72px;
+	}
+
+	.item-description {
+		font-size: 20px;
+		margin-top: 30px;
+    	margin-left: 72px;
+    }
+
+	 .item-box-mundo, .container-item-box, .image-mundo, .image-news{  
+	 	display: none;
+	}
+	    
+	.image-izoton {
+    	left: 69.1%;
+    	top: 19px;
+	}
+
+    .container-item-double {
+    	display: block;
+    	margin-top: 40px;
+	}
+  
+    .item-double-box {
+    	width: 700px;
+    	height: 200px;
+    	padding-top: 20px;
+    	box-sizing: content-box;
+    }
+
+    .image-sport {
+    	left: 58.7%;
+		top: -1%;
+	}
+
+	.image-watch {
+    	left: 60.5%;
+    	top: 59%;
+	}
+
+   .image-news-sport {
+    	top: -3%;
+ 		left: -3.2%;
+ 		display: block;
+ 	}
+
+ 	.image-news-polar {
+    	display: block;
+    	left: -3.1%;
+    	top: 51%;
+	}
+
+	.sport-title, .polar-title{
+    	font-size: 30px;
+    	margin-left: 72px;
+    	margin-top: 40px;
+    }
+
+    .sport-button, .polar-button {
+    	width: 215px;
+    	height: 50px;
+    	margin-left: 72px;
+    }
+
+    .polar-title{ 
+    	margin-top: 19px;
+    }
+
+    .polar-description {
+    	margin-left: 72px;
+    }
+
+    .polar-button {
+    	margin-top: 20px;
+	}
+
+	.double-box-polar {
+		margin-top: 40px;
+	}
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 640px){
+
+	.new-block {
+		max-width: 767px;
+	}
+
+	.container-block {
+    	max-width: 700px;
+    	margin: 0 auto;
+	}
+
+	.container-intro {
+    	width: 600px;
+    	height: 160px;
+    	background-size: 100%;
+    }
+
+    .blue-box {
+    	width: 225px;
+    	height: 160px;
+    }
+
+    .blue-box-radius {
+    	height: 140px;
+    	width: 204px;
+    }
+
+    .intro-title {
+    	font-size: 20px;
+    	margin-top: 18px;
+    	margin-bottom: 4px;
+    }
+
+    .intro-description {
+    	font-size: 11px;
+    }
+
+    .intro-button {
+    	width: 110px;
+    	height: 32px;
+    	font-size: 13px;
+    	margin-top: 29px;
+    }
+
+	.container-item {
+		width: 600px;
+	}
+
+    .container-item-box, .item-box-mundo, .image-mundo, .image-news{
+    	display: none;
+    }
+
+    .item-box {
+    	width: 600px;
+	}
+
+    .image-news-sport {
+ 		display: block;
+ 		left: -3.7%;
+ 		top: -4%;
+ 	}
+
+	.image-izoton {
+    	left: 68.2%;
+	}
+
+	.item-title {
+    	font-size: 26px;
+    	margin-left: 70px;
+	}
+
+	.item-description {
+    	font-size: 20px;
+    	margin-left: 70px;
+    }
+
+    .container-item-double {
+    	display: block;
+    	top: 110px;
+	}
+
+	.item-double-box {
+    	width: 600px;
+    	height: 180px;
+    }
+
+    .sport-title, .polar-title {
+    	padding-top: 36px;
+    }
+
+    .image-sport {
+    	left: 54.7%;
+    }
+
+    .sport-button, .polar-button {
+    	margin-left: 70px;
+    	width: 145px;
+    	height: 40px;
+    }
+
+    .polar-title {
+    	margin-left: 70px;
+    	font-size: 26px;
+    }
+
+    .polar-description {
+   		font-size: 11px;
+   		margin-left: 70px;
+   	}
+
+   	.image-watch {
+    	left: 348px;
+    	top: 226px;
+	}
+
+	.polar-button {
+		margin-top: 17px;
+	}
+
+	.image-news-polar {
+		display: block;
+    	left: -3.8%;
+    	top: 52%;
+	}
+
+}
+
+@media screen and (max-width: 639px) {
+
+	.new-block {
+		max-width: 639px;
+	}
+
+	.container-block {
+    	max-width: 400px;
+    	margin: 0 auto;
+	}
+
+	.container-intro {
+    	width: 390px;
+    	height: 86px;
+    	background-size: 100%;
+    }
+
+    .blue-box {
+    	width: 145px;
+    	height: 86px;
+    }
+
+    .blue-box-radius {
+    	border: none;
+    }
+
+    .intro-title {
+    	font-size: 14px;
+    	margin-top: 3px;
+    	margin-left: 12px;
+    }
+
+    .intro-description, .container-item-box, .item-box-mundo, .image-mundo, .image-news{
+    	display: none;
+    }
+
+    .intro-button {
+    	width: 87px;
+    	height: 30px;
+    	font-size: 11px;
+    	margin-left: 12px;
+    	margin-top: 0px;
+    }
+
+    .image-news-sport, .image-news-polar{
+ 		display: block;
+ 	}
+
+ 	.container-item {
+    	width: 390px;
+    }
+
+    .item-box {
+    	width: 390px;
+    	height: 115px;
+    }
+
+    .izoton {
+    	width: 145px;
+    }
+
+    .image-izoton {
+    	left: 62.5%;
+	}
+
+	.container-item-double {
+    	display: block;
+    	top: 100px;
+	}
+
+	.item-double-box {
+    	width: 390px;
+    	height: 159px;
+    }
+    .image-news-sport {
+    	left: -5.7%;
+    	top: -4%;
+	}
+
+	.image-sport {
+    	left: 43.7%;
+    	top: -10%;
+	}
+
+	.image-news-polar {
+    	left: -5.8%;
+    	top: 52%;
+    }
+
+    .sport-title, .polar-title {
+    	padding-top: 42px;
+    }
+
+    .sport-button, .polar-button {
+    	margin-left: 40px;
+    	margin-top: 25px;
+    	width: 108px;
+    	height: 40px;
+    	font-size: 13px;
+	}
+
+	.polar-description {
+    	font-size: 10px;
+    }
+
+	.polar-button {
+		margin-top: 9px;
+	}
+
+	.image-watch {
+    	left: 190px;
+    	top: 195px;
+	}
+
+}
+
+
+
+    
+
+
+    
+
+
+
+
