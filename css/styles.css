@@ -995,6 +995,7 @@ body {
 
 	.new-block {
 		max-width: 399px;
+		height: 795px;
 	}
 
 	.container-block {
@@ -1022,6 +1023,7 @@ body {
     	font-size: 11px;
     	margin-left: 0px;
 		margin-bottom: 5px;
+		margin-top: -2px;
 	}
 
 	.intro-description {
@@ -1106,7 +1108,7 @@ body {
 
 	.item-double-box {
 		width: 300px;
-		height: 159px;
+		height: 115px;
 	}
 
 	.image-news-left {
@@ -1115,12 +1117,12 @@ body {
 	}
 
 	.image-box-down {
-		width: 100%;
+		width: 110%;
 	}
 
 	.image-down-left {
-		left: 43.7%;
-		top: -10%;
+		left: 47.7%;
+		top: -7%;
 	}
 
 	.image-news-right {
@@ -1128,20 +1130,35 @@ body {
     	top: 49%;
 	}
 
-	.down-title, .right-title {
-		padding-top: 42px;
+	.image-box-small {
+		width: 100%;	
 	}
 
+	.right-title {
+		padding-top: 19px;
+	}
+
+	.down-title {
+    	padding-top: 24px;
+    }
+
 	.left-button, .right-button {
-		margin-left: 40px;
+		margin-left: 12px;
 		margin-top: 25px;
 		width: 108px;
 		height: 40px;
 		font-size: 13px;
 	}
 
+	.left-button {
+    	margin-top: 22px;
+    }
+
 	.description-down {
-		font-size: 10px;
+		font-size: 9px;
+		max-width: 195px;
+		margin-left: 12px;
+		margin-top: 2px;
 	}
 
 	.right-button {
@@ -1149,8 +1166,8 @@ body {
 	}
 
 	.image-down-right {
-		left: 190px;
-		top: 175px;
+    	left: 51%;
+    	top: 51%;
 	}
 
 }
