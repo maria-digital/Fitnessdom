@@ -1006,6 +1006,7 @@ body {
     	width: 300px;
     	height: 80px;
     	background-size: 100%;
+    	top: 15px;
 	}
 
 	.blue-box {
@@ -1019,22 +1020,22 @@ body {
 
 	.intro-title {
     	font-size: 11px;
-    	margin-top: -2px;
-    	margin-left: 5px;
+    	margin-left: 0px;
+		margin-bottom: 5px;
 	}
 
 	.intro-description {
     	display: block;
     	font-size: 9px;
-    	margin-left: 5px;
+    	margin-left: 0px;
     }
 
     .intro-button {
    	 	width: 87px;
     	height: 23px;
     	font-size: 11px;
-    	margin-left: 12px;
-   	 	margin-top: 8px;
+    	margin-left: 0px;
+		margin-top: 17px;
    	 }
 
 	.image-news-left, .image-news-right {
@@ -1042,26 +1043,26 @@ body {
 	}
 
 	.container-item {
-		width: 400px;
-		top: 45px;
+		width: 300px;
+		top: 35px;
 	}
 
 	.item-top {
     	display: block;
-    	width: 400px;
+    	width: 300px;
     }
 
     .item-midle {
     	display: block;
-    	width: 400px;
+    	width: 300px;
 	}
 
 	.item-midle, .item-link {
-		margin-bottom: 25px;
+		margin-bottom: 20px;
 	}
 
 	.item-box {
-		width: 390px;
+		width: 300px;
 		height: 115px;
 	}
 
@@ -1070,40 +1071,51 @@ body {
 	}
 
 	.image-left {
-		left: 62.5%;
+		left: 51.2%;
 	}
 
 	.image-midle {
-    	left: 59%;
+    	left: 50%;
     	top: 38%;
 	}
 
 	.image-right {
-    	left: 61%;
+    	left: 51.2%;
     	top: 67%;
 	}
 
 	.image-news {
-    	top: 30%;
+    	top: 30.5%;
     	left: -5.5%;
-    }
+    	width: 31%;
+	}
+
+	.item-title { 
+		font-size: 14px;
+	}
 
     .item-description {
     	margin-top: 8px;
+    	font-size: 12px;
     }
     
 	.container-item-double {
 		display: block;
-		top: 21px;
+		top: 20px;
 	}
 
 	.item-double-box {
-		width: 390px;
+		width: 300px;
 		height: 159px;
 	}
+
 	.image-news-left {
 		left: -5.7%;
-		top: -4%;
+		top: -3%;
+	}
+
+	.image-box-down {
+		width: 100%;
 	}
 
 	.image-down-left {
