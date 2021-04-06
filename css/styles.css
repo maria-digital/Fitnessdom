@@ -1148,15 +1148,13 @@ body {
 	.left-button, .right-button {
 		margin-left: 12px;
 		margin-top: 25px;
-		width: 108px;
-		height: 40px;
+		width: 101px;
+		height: 32px;
 		font-size: 13px;
 	}
 
 	.left-button {
     	margin-top: 22px;
-    	width: 101px;
-		height: 32px;
     }
 
 	.description-down {
