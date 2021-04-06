@@ -266,7 +266,6 @@ body {
 	border-radius: 5px;
 }
 
-
 .image-news-right {
 	left: 49.2%;
 	top: -7%;
@@ -1006,6 +1005,7 @@ body {
 	.container-intro {
     	width: 300px;
     	height: 80px;
+    	background-size: 100%;
 	}
 
 	.blue-box {
@@ -1028,6 +1028,120 @@ body {
     	font-size: 9px;
     	margin-left: 5px;
     }
+
+    .intro-button {
+   	 	width: 87px;
+    	height: 23px;
+    	font-size: 11px;
+    	margin-left: 12px;
+   	 	margin-top: 8px;
+   	 }
+
+	.image-news-left, .image-news-right {
+		display: block;
+	}
+
+	.container-item {
+		width: 400px;
+		top: 45px;
+	}
+
+	.item-top {
+    	display: block;
+    	width: 400px;
+    }
+
+    .item-midle {
+    	display: block;
+    	width: 400px;
+	}
+
+	.item-midle, .item-link {
+		margin-bottom: 25px;
+	}
+
+	.item-box {
+		width: 390px;
+		height: 115px;
+	}
+
+	.image-box-left {
+		width: 145px;
+	}
+
+	.image-left {
+		left: 62.5%;
+	}
+
+	.image-midle {
+    	left: 59%;
+    	top: 38%;
+	}
+
+	.image-right {
+    	left: 61%;
+    	top: 67%;
+	}
+
+	.image-news {
+    	top: 30%;
+    	left: -5.5%;
+    }
+
+    .item-description {
+    	margin-top: 8px;
+    }
+    
+	.container-item-double {
+		display: block;
+		top: 21px;
+	}
+
+	.item-double-box {
+		width: 390px;
+		height: 159px;
+	}
+	.image-news-left {
+		left: -5.7%;
+		top: -4%;
+	}
+
+	.image-down-left {
+		left: 43.7%;
+		top: -10%;
+	}
+
+	.image-news-right {
+    	left: -5.5%;
+    	top: 49%;
+	}
+
+	.down-title, .right-title {
+		padding-top: 42px;
+	}
+
+	.left-button, .right-button {
+		margin-left: 40px;
+		margin-top: 25px;
+		width: 108px;
+		height: 40px;
+		font-size: 13px;
+	}
+
+	.description-down {
+		font-size: 10px;
+	}
+
+	.right-button {
+		margin-top: 9px;
+	}
+
+	.image-down-right {
+		left: 190px;
+		top: 175px;
+	}
+
+}
 
 }
 
