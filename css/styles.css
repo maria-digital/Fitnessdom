@@ -992,6 +992,45 @@ body {
 
 }
 
+@media screen and (max-width: 399px) {
+
+	.new-block {
+		max-width: 399px;
+	}
+
+	.container-block {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.container-intro {
+    	width: 300px;
+    	height: 80px;
+	}
+
+	.blue-box {
+    	width: 128px;
+    	height: 80px;
+	}
+
+	.blue-box-radius {
+    	border: none;
+	}
+
+	.intro-title {
+    	font-size: 11px;
+    	margin-top: -2px;
+    	margin-left: 5px;
+	}
+
+	.intro-description {
+    	display: block;
+    	font-size: 9px;
+    	margin-left: 5px;
+    }
+
+}
+
 
 
 
