@@ -83,6 +83,10 @@ body {
 	outline: none;
 }
 
+.link-button {
+	text-decoration: none;
+}
+
 .container-item {
 	width: 1203px;
 	position: relative;
