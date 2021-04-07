@@ -17,6 +17,10 @@ body {
 	top: 80px;
 	position: relative;
 	margin: 0 auto;
+	
+}
+
+.link-container {
 	display: block;
     text-decoration: none;
 }
