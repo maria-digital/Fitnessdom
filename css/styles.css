@@ -884,7 +884,6 @@ body {
     	max-width: 85px;
     }
 
-
 	.intro-button {
    	 	width: 87px;
     	height: 23px;
@@ -989,7 +988,7 @@ body {
 	}
 
 	.right-button {
-		margin-top: 9px;
+		margin-top: -11px;
 	}
 
 	.image-down-right {
@@ -1162,7 +1161,7 @@ body {
 	}
 
 	.left-button {
-    	margin-top: 22px;
+    	margin-top: 18px;
     }
 
 	.description-down {
@@ -1173,7 +1172,7 @@ body {
 	}
 
 	.right-button {
-		margin-top: 9px;
+		margin-top: -1px;
 	}
 
 	.image-down-right {
